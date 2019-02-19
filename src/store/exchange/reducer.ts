@@ -10,7 +10,7 @@ const initialState: ExchangeState = {
 const reducer: Reducer<ExchangeState> = (state = initialState, action) => {
   switch (action.type) {
     case ExchangeActionTypes.FETCH_REQUEST: {
-      return { ...state, loading: true };
+      return { ...state, loading: true, errors: "" };
     }
     case ExchangeActionTypes.FETCH_SUCCESS: {
       return {

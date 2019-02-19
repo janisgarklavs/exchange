@@ -13,7 +13,7 @@ describe("exchange reducer", () => {
     test("returns the correct state", () => {
       const action = { type: ExchangeActionTypes.FETCH_REQUEST };
       const expectedState = {
-        errors: undefined,
+        errors: "",
         loading: true,
         data: undefined
       };

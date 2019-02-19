@@ -29,6 +29,13 @@ export class MainPage extends React.Component<
     this.props.fetchRequest();
   };
 
+  componentDidUpdate(): void {
+    const { errors } = this.props;
+    if (errors) {
+      alert(errors);
+    }
+  }
+
   render() {
     const { data, errors, loading } = this.props;
 
