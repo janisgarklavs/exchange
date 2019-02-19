@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`exchange actions fetchError Dispatches the correct action and payload 1`] = `
+Array [
+  Object {
+    "meta": undefined,
+    "payload": "something failed",
+    "type": "@@exchange/FETCH_ERROR",
+  },
+]
+`;
+
+exports[`exchange actions fetchRequestStart Dispatches the correct action and payload 1`] = `
+Array [
+  Object {
+    "meta": undefined,
+    "payload": undefined,
+    "type": "@@exchange/FETCH_REQUEST",
+  },
+]
+`;
+
+exports[`exchange actions fetchSuccess Dispatches the correct action and payload 1`] = `
+Array [
+  Object {
+    "meta": undefined,
+    "payload": Object {},
+    "type": "@@exchange/FETCH_SUCCESS",
+  },
+]
+`;

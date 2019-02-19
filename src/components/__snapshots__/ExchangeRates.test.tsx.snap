@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ExchangeRates /> it renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "padding": "12px 24px",
+      "textAlign": "center",
+    }
+  }
+>
+  <div
+    key="USD"
+    style={
+      Object {
+        "padding": "4px 0",
+      }
+    }
+  >
+    <b>
+      USD
+    </b>
+     - 
+    0.8
+  </div>
+</div>
+`;

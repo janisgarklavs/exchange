@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> it renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "background": "white",
+      "boxShadow": "0 0 5px rgba(0, 0, 0, .2)",
+      "margin": "0 auto",
+      "maxWidth": 400,
+      "padding": 24,
+    }
+  }
+/>
+`;

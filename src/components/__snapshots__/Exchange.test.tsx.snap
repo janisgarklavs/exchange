@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Exchange /> it renders correctly 1`] = `
+<Fragment>
+  <div
+    style={
+      Object {
+        "borderBottom": "1px solid black",
+        "display": "flex",
+        "justifyContent": "space-between",
+        "padding": "12px 24px",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Base: 
+      <span>
+        EUR
+      </span>
+    </div>
+    <div
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Date: 
+      <span>
+        01-01-2018
+      </span>
+    </div>
+  </div>
+  <ExchangeRates
+    rates={
+      Object {
+        "USD": 0.2,
+      }
+    }
+  />
+</Fragment>
+`;
